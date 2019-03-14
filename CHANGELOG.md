@@ -9,7 +9,16 @@ service runtime.
 For instance, fixing the documentation and lintin SHOULD not be
 included in the changelog document.
 
-## [Unreleased] 
+## [0.2.1] - 2019-03-13
+
+- Added Depth method to get price levels for bids and asks
+- Added Order method to get Order object by ID
+
+## [0.2.0] - 2019-03-13
+
+- Added parial quantity processed return value to Market and Limit orders
+
+## [0.1.0] - 2019-03-01
 
 - Added in travisci and GolangCI linter
 - Fix vet warnings
